@@ -1,0 +1,14 @@
+html {
+  background-image: url("/assets/img/bg.png");
+  animation: scrolling 500s linear infinite;
+  color: white;
+}
+@keyframes scrolling {
+  from {
+    background-position: 0 0;
+  }
+  
+  to {
+    background-position: -10000px -10000px;
+  }
+}
